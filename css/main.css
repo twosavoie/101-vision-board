@@ -1,0 +1,79 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Permanent Marker', cursive;
+
+## Colors:
+- Yellow (#FFF44F)
+- White (#FFFFFF)
+- Light Gray (#E8E8E8)
+- Dark Gray (#3B3B3B)
+
+## Fonts
+- Montserrat (700)
+- Permanent Marker (normal)
+- Sizes: 20px | 30px | 38px */
+
+body {
+  background-color: #E8E8E8;
+}
+#vision-board {
+  width: 1200px;
+  height: 850px;
+  margin: 50px auto;
+  background-image: url("../img/background.png");
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.block {
+  float: left;
+  width: 400px;
+  box-sizing: border-box;
+}
+.small-block {
+  padding: 20px 40px;
+	height: 210px;
+}
+.large-block {
+  padding: 70px 40px;
+	height: 430px;
+}
+.clear {
+  clear: both;
+}
+.center-text {
+  text-align: center;
+}
+.right-text {
+  text-align: right;
+}
+.light-bg {
+  background-color: #FFFFFF;
+}
+.dark-bg {
+  background-color: #3B3B3B;
+}
+h1 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+h1 span {
+  background-color: #FFF44F;
+  padding: 5px 15px;
+}
+p span {
+  font-size: 38px;
+  text-transform: capitalize;
+  /* text-transform: none; */
+  line-height: 38px;
+}
+.title span {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: normal;
+}
+.title {
+  color: #FFFFFF;
+  margin: 10px 0;
+  font-size: 30px;
+}
